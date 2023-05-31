@@ -1,0 +1,124 @@
+.container_tache {
+    max-width: 75%;
+    margin: 1px 0px 0px 17% ;
+    padding: 5px;
+ 
+  }
+
+
+  .responsive-table-tache li {
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .responsive-table-tache .table-header {
+    background-color: #95a5a6;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .responsive-table-tache .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .responsive-table-tache .col-1 {
+    flex-basis: 5%;
+  }
+  .responsive-table-tache .col-2 {
+    flex-basis: 12%;
+  }
+  .responsive-table-tache .col-3 {
+    flex-basis: 15%;
+  }
+  .responsive-table-tache .col-4 {
+    flex-basis: 18%;
+  }
+  .responsive-table-tache .col-5 {
+    flex-basis: 20%;
+  }
+  .responsive-table-tache .col-6 {
+    flex-basis: 18%;
+  }
+  .responsive-table-tache .col-7 {
+    flex-basis:18%;
+  }
+  .responsive-table-tache .col-8 {
+    flex-basis:15%;
+  }
+  .responsive-table-tache .col-9 {
+    flex-basis:7%;
+  }
+
+  .responsive-table-tache  .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+.responsive-table-tache .modifier{
+    width: 50px;
+    background-color:#4e3a97;
+    color: white;
+    border-radius: 3px;
+
+}
+.responsive-table-tache .supprimer{
+    width: 50px;
+    background-color:#f44336;
+    color: white;
+
+}
+
+
+  @media all and (max-width: 800px) {
+    .responsive-table-tache .table-header {
+      display: none;
+    }
+    .responsive-table-tache li {
+      display: block;
+    }
+    .responsive-table-tache .col {
+      flex-basis: 100%;
+    }
+    .responsive-table-tache .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-table-tache .col:before {
+      color: #6c7a89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
+
+
+  .load-page{
+    background: #fff;
+    overflow: hidden;
+    padding: 10%;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.loader div{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px); 
+    border: 2px solid #fff;
+    border-top: 2px solid crimson;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+    50%{transform: rotate(80deg);}
+    100%{transform: rotate(360deg);}
+    
+}

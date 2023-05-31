@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  .topbarContainer{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 4px 2px -2px gray;
+   display: flex;
+   align-items: center;
+   top: 0;
+   background-color: #319795;
+  }
+  .logo{
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 43px;
+    font-family: 'Edwardian Script ITC', cursive;
+    padding-top: 13px;
+  }
+  .topbarRight .searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    border: #fff 1px solid;
+    margin-top: 8.5px;
+  }
+  .Icon{
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 5px;
+    color: #5c5c5c;
+  }
+  .searchInput{
+    border: none;
+    width: 80px;
+  }
+  .searchInput:focus{
+    outline: none;
+  }
+  .topbarLeft{
+    flex: 3.65;
+  }
+  .topbarCenter{
+    flex: 10;
+    display: flex;
+  }
+  .IconItem{
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 17px;
+  font-size: 24px;
+  }
+  .IconItem:hover{
+    color: #393939;
+  }
+  .topbarRight{
+    flex: 4;
+    display: flex;
+  }
+  .topbarImg{
+    border-radius: 50%;
+    width: 45px;
+    height:45px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .sidebar{
+    width: 274px;
+    height: 100%;
+    background-color: #393939;
+    position: fixed;
+  }
+  li{
+    padding-top: 13px;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .sidebar a{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+  }
+  
+  .sidebar a i{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+  .sidebar a.active{
+    background-color: #fff;
+    padding-top: 0.7rem;
+    padding-bottom:0.7rem;
+    color: #319795;
+    border-radius: 30px 0 0 30px;
+  }
+  #checkbox{display: none;}
+  #checkbox:checked ~ .leftbarContainer .sidebar{width: 95px;}
+  #checkbox:checked ~ .leftbarContainer .sidebar li a span{display: none;}
+  #checkbox:checked ~ .leftbarContainer .sidebar li a i:hover{color: #319795;}
+  

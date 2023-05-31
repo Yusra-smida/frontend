@@ -1,0 +1,238 @@
+.form_tache {
+  max-width: 100%;
+  border: 2px solid rgb(3, 165, 206);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.form_tache h3 {
+
+  letter-spacing: 1px;
+  color: #555;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  text-align: center;
+}
+
+.form_tache form input,
+.form_tache form button {
+  width: 100%;
+  height: 35px;
+  margin: 5px 0;
+  padding: 0 5px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+}
+
+
+.form_tache .table {
+
+  height: 35px;
+  margin: 5px 0;
+  padding: 0 5px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+
+
+  width: 100%;
+
+
+}
+
+.table,
+th,
+td {
+
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.container_acceuil {
+  max-width: 65%;
+  margin: 1px 0px 0px 20%;
+  padding: 5px;
+
+}
+
+
+.responsive-table-acceuil li {
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.responsive-table-acceuil .table-header {
+  background-color: #95a5a6;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.responsive-table-acceuil .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table-acceuil .col-1 {
+  flex-basis: 5%;
+}
+
+.responsive-table-acceuil .col-2 {
+  flex-basis: 10%;
+}
+
+.responsive-table-acceuil .col-3 {
+  flex-basis: 10%;
+}
+
+.responsive-table-acceuil .col-4 {
+  flex-basis: 15%;
+}
+
+.responsive-table-acceuil .col-5 {
+  flex-basis: 15%;
+}
+
+.responsive-table-acceuil .col-6 {
+  flex-basis: 15%;
+}
+
+.responsive-table-acceuil .col-7 {
+  flex-basis: 8%;
+}
+
+.responsive-table-acceuil .col-8 {
+  flex-basis: 8%;
+}
+
+.responsive-table-acceuil .col-9 {
+  flex-basis: 8%;
+}
+
+.responsive-table-acceuil .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.responsive-table-acceuil .modifier {
+  width: 50px;
+  background-color: #4e3a97;
+  color: white;
+  border-radius: 3px;
+
+}
+
+.responsive-table-acceuil .supprimer {
+  width: 50px;
+  background-color: #f44336;
+  color: white;
+
+}
+
+
+@media all and (max-width: 800px) {
+  .responsive-table-acceuil .table-header {
+    display: none;
+  }
+
+  .responsive-table-acceuil li {
+    display: block;
+  }
+
+  .responsive-table-acceuil .col {
+    flex-basis: 100%;
+  }
+
+  .responsive-table-acceuil .col {
+    display: flex;
+    padding: 10px 0;
+  }
+
+  .responsive-table-acceuil .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+
+.load-page {
+  background: #fff;
+  overflow: hidden;
+  padding: 10%;
+}
+
+.loader {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.loader div {
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 2px solid #fff;
+  border-top: 2px solid crimson;
+  border-radius: 50%;
+  animation: rotate 10s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(80deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.btn_modif {
+  width: 160px;
+  background-color: rgb(3, 165, 206);
+  color: white;
+
+  letter-spacing: 2px;
+}
+
+.row_projet {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.acceuilsearch {
+  width: 220px;
+  height: 25px;
+
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+  border: 1px solid rgb(43, 40, 40);
+
+}
+
+.searchadd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

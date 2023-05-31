@@ -1,0 +1,77 @@
+
+
+  .error  {
+    font-weight: 20px;
+    color: red;
+    margin-top: 0.7rem;
+  }
+  
+  img{ 
+  float:left;
+  width: 320px;
+  height: 410px;}
+
+
+  .imagelog{
+    display: block;
+    margin-left: 25%;
+    
+    width: 200px;
+  height: 110px;
+  }
+ 
+
+  .login-form{
+    max-width: 400px;
+    border: 2px solid rgb(3,165,206);
+    border-radius: 5px;
+    padding: 30px;
+     margin: 50px auto;
+}
+
+.login-form h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#555;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    text-align: center;
+}
+.login-form form input,
+.login-form form button{
+    width: 70%;
+    height: 40px;
+    margin:10px 15%;
+    padding: 0 5px;
+    outline: rgb(3,165,206);
+    border: 1px solid rgb(3,165,206);
+    border-radius: 10px;
+}
+
+.login-form form .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-form form button{
+    width: 150px;
+    background-color: rgb(3,165,206);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+
+.login-form form a{
+    color:rgb(84, 96, 99);
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+  

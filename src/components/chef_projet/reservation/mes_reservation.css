@@ -1,0 +1,203 @@
+.mes_reserve{
+    max-width: 75%;
+    margin: 1px 0px 0px 17% ;
+    padding: 5px;
+}
+.images{
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+  }
+  .Ajouter-form-reservation{
+    max-width: 100%;
+    border: 2px solid rgb(3,165,206);
+    border-radius: 5px;
+    padding: 20px;
+     margin: 20px auto  ;
+     justify-content: center;
+     align-items: center;
+     justify-items: center;
+     
+     text-align: center;
+}
+.Ajouter-form-reservation h3{
+  
+  letter-spacing: 1px;
+  color:#555;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+  text-align: center;
+}
+
+.Ajouter-form-reservation form input,
+.Ajouter-form-reservation form button{
+    width: 50%;
+    height: 35px;
+    margin:5px 0;
+    padding: 0 5px;
+    outline: rgb(3,165,206);
+    border: 1px solid rgb(3,165,206);
+}
+.Ajouter-form-reservation  form .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Ajouter-form-reservation  form button{
+  width: 150px;
+  background-color: rgb(3,165,206);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  border-radius: 10px;
+}
+
+.Ajouter-form-reservation  form a{
+  color:rgb(84, 96, 99);
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+.responsive-mes-reserve li {
+    border-radius: 10px;
+    padding: 10px 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  .responsive-mes-reserve .table-header {
+    background-color: #95a5a6;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .responsive-mes-reserve .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .responsive-mes-reserve .col-1 {
+    flex-basis: 5%;
+  }
+  .responsive-mes-reserve .col-2 {
+    flex-basis: 10%;
+  }
+  .responsive-mes-reserve .col-3 {
+    flex-basis: 12%;
+  }
+  .responsive-mes-reserve .col-4 {
+    flex-basis: 8%;
+  }
+  .responsive-mes-reserve .col-5 {
+    flex-basis: 8%;
+  }
+  .responsive-mes-reserve .col-6 {
+    flex-basis: 10%;
+  }
+  .responsive-mes-reserve .col-7 {
+    flex-basis:10%;
+  }
+  .responsive-mes-reserve .col-8 {
+    flex-basis:10%;
+  }
+
+
+  .responsive-mes-reserve  .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+  @media all and (max-width: 800px) {
+    .responsive-mes-reserve .table-header {
+      display: none;
+    }
+    .responsive-mes-reserve li {
+      display: block;
+    }
+    .responsive-mes-reserve .col {
+      flex-basis: 100%;
+    }
+    .responsive-mes-reserve .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-mes-reserve .col:before {
+      color: #6c7a89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
+
+
+  .load-page{
+    background: #fff;
+    overflow: hidden;
+    padding: 10%;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.loader div{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px); 
+    border: 2px solid #fff;
+    border-top: 2px solid crimson;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+    50%{transform: rotate(80deg);}
+    100%{transform: rotate(360deg);}
+    
+}
+.filter_menu{
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.filter_menu select, input{
+  border: 1px solid #ccc;
+  outline: none;
+  height: 25px;
+  padding: 0 5px;
+  border-radius: 7px;
+}
+.filter_menu input{
+  flex: 1;
+  margin: 0 10px;
+}
+.btn_clear{
+  
+}
+.rowselect select{
+  border: 1px solid #ccc;
+    outline: none;
+    height: 35px;
+    width: 45%;
+    padding: 0 5px;
+    border-radius: 7px;
+}

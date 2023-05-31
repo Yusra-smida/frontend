@@ -1,0 +1,118 @@
+.materiel_reserve{
+    max-width: 75%;
+    margin: 1px 0px 0px 20% ;
+    padding: 5px;
+}
+.images{
+    width: 100px;
+    height: 100px;
+  }
+
+  
+.responsive-materiel-reserve li {
+    border-radius: 10px;
+    padding: 10px 3px ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  .responsive-materiel-reserve .table-header {
+    background-color: #95a5a6;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .responsive-materiel-reserve .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .responsive-materiel-reserve .col-1 {
+    flex-basis: 5%;
+  }
+  .responsive-materiel-reserve .col-2 {
+    flex-basis: 10%;
+  }
+  .responsive-materiel-reserve .col-3 {
+    flex-basis: 10%;
+  }
+  .responsive-materiel-reserve .col-4 {
+    flex-basis: 14%;
+  }
+  .responsive-materiel-reserve .col-5 {
+    flex-basis: 10%;
+  }
+  .responsive-materiel-reserve .col-6 {
+    flex-basis: 10%;
+  }
+  .responsive-materiel-reserve .col-7 {
+    flex-basis:10%;
+  }
+  .responsive-materiel-reserve .col-8 {
+    flex-basis:10%;
+  }
+  .responsive-materiel-reserve .col-9 {
+    flex-basis:10%;
+  }
+
+  .responsive-materiel-reserve  .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+  @media all and (max-width: 800px) {
+    .responsive-materiel-reserve .table-header {
+      display: none;
+    }
+    .responsive-materiel-reserve li {
+      display: block;
+    }
+    .responsive-materiel-reserve .col {
+      flex-basis: 100%;
+    }
+    .responsive-materiel-reserve .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-materiel-reserve .col:before {
+      color: #6c7a89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
+
+
+  .load-page{
+    background: #fff;
+    overflow: hidden;
+    padding: 10%;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.loader div{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px); 
+    border: 2px solid #fff;
+    border-top: 2px solid crimson;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+    50%{transform: rotate(80deg);}
+    100%{transform: rotate(360deg);}
+    
+}

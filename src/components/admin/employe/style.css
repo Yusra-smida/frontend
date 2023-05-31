@@ -1,0 +1,239 @@
+.Ajouter-form{
+    max-width: 100%;
+    border: 2px solid rgb(3,165,206);
+    border-radius: 5px;
+    padding: 20px;
+     margin: 20px auto  ;
+}
+.Ajouter-form h3{
+  
+  letter-spacing: 1px;
+  color:#555;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  
+  text-align: center;
+}
+
+.Ajouter-form form input,
+.Ajouter-form form button{
+    width: 100%;
+    height: 35px;
+    margin:5px 0;
+    padding: 0 5px;
+    outline: rgb(3,165,206);
+    border: 1px solid rgb(3,165,206);
+}
+
+.Ajouter-form form .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Ajouter-form form button{
+    width: 150px;
+    background-color: rgb(3,165,206);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+
+.Ajouter-form form a{
+    color:rgb(84, 96, 99);
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+
+body {
+    font-family: "lato", sans-serif;
+  }
+  
+  .container {
+    max-width: 65%;
+    margin: 1px 0px 0px 20% ;
+    padding: 5px;
+ 
+  }
+  .addsearche{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .Iconsearche{
+    font-size: 14px;
+
+    color: #191A1C;
+  }
+  .txtsearche{
+    color:#191A1C;
+    font-size:16;
+    border-width:1;
+     border:none;
+     border-radius:10;
+   
+  }
+  .divsearche{
+ width: 220px;
+    height: 25px;
+   
+    border-radius: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: 8.5px;
+
+    border: 1px solid rgb(43, 40, 40);
+
+
+
+  }
+
+  .searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    border: #fff 1px solid;
+    margin-top: 8.5px;
+  }
+  .Icon{
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 5px;
+    color: #5c5c5c;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  h2 small {
+    font-size: 0.5em;
+  }
+
+  .add{
+       margin-left: 20px;
+    font-size: 30px;
+  }
+  .responsive-table li {
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .responsive-table .table-header {
+    background-color: #95a5a6;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+  .responsive-table .col-1 {
+    flex-basis: 5%;
+  }
+  .responsive-table .col-2 {
+    flex-basis: 10%;
+  }
+  .responsive-table .col-3 {
+    flex-basis: 10%;
+  }
+  .responsive-table .col-4 {
+    flex-basis: 15%;
+  }
+  .responsive-table .col-5 {
+    flex-basis: 15%;
+  }
+  .responsive-table .col-6 {
+    flex-basis: 15%;
+  }
+  .responsive-table .col-7 {
+    flex-basis:8%;
+  }
+
+  .responsive-table  .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+.responsive-table .modifier{
+    width: 50px;
+    background-color:#4e3a97;
+    color: white;
+    border-radius: 3px;
+
+}
+.responsive-table .supprimer{
+    width: 50px;
+    background-color:#f44336;
+    color: white;
+
+}
+
+
+  @media all and (max-width: 800px) {
+    .responsive-table .table-header {
+      display: none;
+    }
+    .responsive-table li {
+      display: block;
+    }
+    .responsive-table .col {
+      flex-basis: 100%;
+    }
+    .responsive-table .col {
+      display: flex;
+      padding: 10px 0;
+    }
+    .responsive-table .col:before {
+      color: #6c7a89;
+      padding-right: 10px;
+      content: attr(data-label);
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
+
+
+  .load-page{
+    background: #fff;
+    overflow: hidden;
+    padding: 10%;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.loader div{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px); 
+    border: 2px solid #fff;
+    border-top: 2px solid crimson;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+    50%{transform: rotate(80deg);}
+    100%{transform: rotate(360deg);}
+    
+}
+
